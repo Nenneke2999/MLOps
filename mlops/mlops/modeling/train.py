@@ -104,6 +104,7 @@ def train_model(num_classes, train_loader, test_loader):
             f"Train Loss: {avg_train_loss:.4f}, Train Accuracy: {train_accuracy:.4f}, "
             f"Test Loss: {avg_test_loss:.4f}, Test Accuracy: {test_accuracy:.4f}"
         )
+    return pretrained_model
 
 def fine_tune_model(pretrained_model, train_loader, test_loader):
     "Функция дообучения модели."
@@ -189,3 +190,4 @@ def fine_tune_model(pretrained_model, train_loader, test_loader):
             f"Train Loss: {avg_train_loss:.4f}, Train Accuracy: {train_accuracy:.4f}, "
             f"Test Loss: {avg_test_loss:.4f}, Test Accuracy: {test_accuracy:.4f}"
         )
+    return pretrained_model

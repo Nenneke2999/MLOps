@@ -72,4 +72,4 @@ def create_dataloader(transforms_train, transforms_test):
         shuffle=False
     )
 
-    return train_loader, test_loader
+    return train_loader, test_loader, train_dataset, test_dataset
