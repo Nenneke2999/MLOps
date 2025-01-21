@@ -3,6 +3,7 @@ configparser==4.0.2
 contextlib2==0.6.0.post1
 decorator==4.4.2
 distlib==0.3.8
+duckduckgo_search~=7.2.0
 enum34==1.1.10
 et-xmlfile==1.0.1
 filelock==3.2.1
