@@ -1,14 +1,3 @@
-from pathlib import Path
-
-import typer
-from loguru import logger
-from tqdm import tqdm
-
-from mlops.config import PROCESSED_DATA_DIR, RAW_DATA_DIR
-
-app = typer.Typer()
-
-
 from duckduckgo_search import DDGS
 import os
 import requests
